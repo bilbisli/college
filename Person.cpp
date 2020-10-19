@@ -18,6 +18,7 @@ void Person::Print()const
 {
 	cout << "The name is:" << name << endl;
 	cout << "The age is:" << age << endl;
+        cout << "The number id is:" << id << endl;
 }
 Person& Person::operator = (const Person& obj)
 {
