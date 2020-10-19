@@ -4,7 +4,7 @@
 #include <typeinfo>
 using namespace std;
 
-class Employee:public Person
+class Employee: virtual public Person
 {
 protected:
 	float salary;
