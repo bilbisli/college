@@ -1,5 +1,14 @@
 #include "Person.h"
 
+Person::Person(string name_, long id_, int age_)
+{
+	if (strlen(name_) > 10)
+		cout << "The name biger from ten letters" << endl;
+	name = name_;
+	id = id_;
+	age = age_;
+}
+
 Person::Person(const Person& other)
 {
 	*this = other;
