@@ -1,2 +1,7 @@
 #include "Employee.h"
-#include "Person.h"
+
+void Employee::Print() const
+{
+	Person::Print();
+	cout << "salary: " << salary << endl;
+}
