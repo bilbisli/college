@@ -3,7 +3,7 @@
 #include Student.h
 #include Employee.h
 
-class WorkingStudent : virtual public Student, virtual public Employee
+class WorkingStudent : public Student, public Employee
 {
 protected:
 	bool institute_same;
