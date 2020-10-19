@@ -12,7 +12,7 @@ protected:
 	int age;
 public:
 	Person() :name("def name"), id(000000000), age(18) {};//def ctor
-	Person(string name, long id, int age) : name(name), id(id), age(age) {};//ctor
+	Person(string name_, long id_, int age_) : name(name_), id(id_), age(age_) {};//ctor
 	Person(const Person& other);//cope cctor
 	virtual ~Person() = 0 {};// pure virtual
 	Person & operator = (const Person&);//operator equal between Person

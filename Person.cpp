@@ -13,9 +13,9 @@ Person& Person::operator = (const Person& obj)
 {
 	if (this != &obj)
 	{
-		name = obj.name;
-		id = obj.id;
-		age = obj.age;
+		name = obj.name_;
+		id = obj.id_;
+		age = obj.age_;
 	}
 
 	return *this;
