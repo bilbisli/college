@@ -3,7 +3,7 @@
 using namespace std;
 
 
-class Student :public Person {
+class Student : virtual public Person {
 private:
 	int average;
 	string institute;
