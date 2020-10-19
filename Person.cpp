@@ -4,6 +4,7 @@ Person::Person(string name_, long id_, int age_)
 {
 	if (strlen(name_) > 10)
 		cout << "The name biger from ten letters" << endl;
+		exit(1);
 	name = name_;
 	id = id_;
 	age = age_;
